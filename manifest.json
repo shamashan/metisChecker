@@ -1,0 +1,13 @@
+{
+  "name": "Checker Metis",
+  "version": "1.0",
+  "description": "Automatically Check",
+  "content_scripts": [
+    {
+      "matches": ["https://metis.afpa.fr/*"],
+      "run_at": "document_end",
+      "js": ["index.js"]
+    }
+  ],
+  "manifest_version": 3
+}
